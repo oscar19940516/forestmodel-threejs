@@ -45,7 +45,6 @@ export default function App() {
         <OrbitControls autoRotate maxPolarAngle={Math.PI / 2.18} autoRotateSpeed={0.3} maxDistance={33} minDistance={8} />
       </Canvas>
       <Loader />
-      /*<Overlay /> */
     </>
   )
 }
