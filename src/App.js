@@ -5,7 +5,7 @@ import Effects from "./Effects"
 import { Bvh, Loader, OrbitControls } from "@react-three/drei"
 
 import "./styles.css"
-import Overlay from "./Overlay"
+//import Overlay from "./Overlay"
 import ForestModel from "./Model"
 
 export default function App() {
@@ -45,7 +45,7 @@ export default function App() {
         <OrbitControls autoRotate maxPolarAngle={Math.PI / 2.18} autoRotateSpeed={0.3} maxDistance={33} minDistance={8} />
       </Canvas>
       <Loader />
-      <Overlay />
+      //<Overlay />
     </>
   )
 }
