@@ -20,7 +20,7 @@ export default function LightSource() {
         <orthographicCamera attach="shadow-camera" args={[-25, 25, -25, 25, 0.1, 50]} />
       </directionalLight>
       <ambientLight color={"lightblue"} intensity={0.9} />
-      <Environment preset="sunset" resolution={256} />
+      <Environment background={false} files="venice_sunset_1k.hdr" resolution={256} />
 
       <BakeShadows />
     </>
